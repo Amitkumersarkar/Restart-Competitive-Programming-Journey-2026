@@ -4,7 +4,8 @@ int main()
     char name[10];
     printf("Enter your name : ");
     // scanf("%s", &name); // use %s format specifier for multiple char as stirng
-    gets(name);
+    fgets(name, sizeof(name), stdin);
+    // size_t len = strlen(name);
     // printf("Hello! %s\n", name);
     printf("Hello ! ");
     puts(name);
