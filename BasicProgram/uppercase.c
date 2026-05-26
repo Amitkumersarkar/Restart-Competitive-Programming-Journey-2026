@@ -1,3 +1,4 @@
+// without library function
 #include <stdio.h>
 int main()
 {
