@@ -1,5 +1,5 @@
 // decimal to octal conversion
-// %d for dec and %o for oct
+// format specifier %d for dec and %o for oct and hex %x
 #include <stdio.h>
 int main()
 {
