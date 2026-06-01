@@ -5,7 +5,7 @@ int main()
     scanf("%d", &N);
     if (N == 7)
     {
-        printf("THALA");
+        printf("THALA\n");
     }
     else
     {
