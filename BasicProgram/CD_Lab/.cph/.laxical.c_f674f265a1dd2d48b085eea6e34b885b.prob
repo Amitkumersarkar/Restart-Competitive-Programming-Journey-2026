@@ -1,0 +1,1 @@
+{"name":"Local: laxical","url":"c:\\Competitive Programming\\BasicProgram\\CD_Lab\\laxical.c","tests":[{"id":1781117640896,"input":"int main\n{\nint a b\nfloat total\ntotal a b\nreturn\n}","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive Programming\\BasicProgram\\CD_Lab\\laxical.c","group":"local","local":true}
