@@ -4,7 +4,8 @@ int main()
     for (int i = 1; i <= 6; i++)
     {
         printf("%d\n", i);
-        break;
+        if (i == 4)
+            break;
         // continue;
     }
     return 0;
