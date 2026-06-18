@@ -4,7 +4,7 @@ int main()
     int cnt = 0;
     do
     {
-        printf("Hello Amrita\n");
+        printf(" Hello Amrita\n");
         cnt++;
     } while (cnt < 5);
 
