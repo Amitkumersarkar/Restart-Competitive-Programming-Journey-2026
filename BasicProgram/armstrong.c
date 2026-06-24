@@ -4,11 +4,10 @@ int main()
     int num, rem, temp, sum = 0;
     scanf("%d", &num);
     temp = num;
-    sum = sum * rem * rem;
     while (temp != 0)
     {
-        rem = num;
-        sum = sum * rem * rem * rem;
+        rem = temp % 10;
+        sum = sum + rem * rem * rem;
         temp = temp / 10;
     }
     if (sum == num)
