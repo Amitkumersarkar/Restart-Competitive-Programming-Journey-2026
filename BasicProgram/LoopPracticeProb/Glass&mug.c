@@ -1,23 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    int k;
-    scanf("%d", &k);
+    int k, cg, cm;
+    scanf("%d %d %d", &k, &cg, &cm);
+    int g = 0, m = 0;
     for (int i = 1; i <= k; i++)
     {
-        int glass, g = 0, mug, m = 0;
-        scanf("%d %d", &glass, &mug);
-        if (g == glass)
+        if (g == cg)
         {
             g = 0;
         }
-        else if (m == mug)
+        else if (m == 0)
         {
-            m = 0;
+            m = cm;
         }
         else
         {
-            int empty = glass - g;
+            int empty = cg - g;
             if (m >= empty)
             {
                 g += empty;
