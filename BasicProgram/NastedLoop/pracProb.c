@@ -1,13 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int n, x;
+    int n;
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        int s = x % 10;
-        printf("%d\n", s);
-        s = x / 10;
+        printf("Hello \n");
     }
     return 0;
 }
